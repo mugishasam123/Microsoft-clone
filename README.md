@@ -1,5 +1,5 @@
 
-![](https://img.shields.io/badge/DatasetManager-blue)
+![](https://img.shields.io/badge/MicrosftClone-blue)
 
 # Microsoft Clone
 
@@ -43,8 +43,7 @@ $ cd Microsoft-clone
 #### Run project
 
 ```bash
-$ npm install
-$ npm start # this will open it in the browser and enable hot reloading
+Run index.html
 ```
 
   <br>
