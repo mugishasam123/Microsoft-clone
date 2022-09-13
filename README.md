@@ -1,9 +1,9 @@
 
 ![](https://img.shields.io/badge/DatasetManager-blue)
 
-# Data Set Manager
+# Microsoft Clone
 
-> data-set-manager  is an app that allows you to track different elements by setting up them,editing and removing them . It is built using React js
+> Microsoft clone  is a clone of Microsoft homepage . It is built using html and tailwindcss
  
 ![screenshot](https://user-images.githubusercontent.com/90524466/166163957-fc383a6f-b452-46cd-ae1d-2b9e9de294fb.png)
 
@@ -11,8 +11,8 @@
 Additional description about the project and its features.
 ## Built With
 
-- Major languages (JavaScript)
-- Framework/Libraries (React js)
+- Major languages (html)
+- Framework/Libraries (tailwindcss)
 - Technologies/tools used 
   
   ``` bash
@@ -35,9 +35,9 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/mugishasam123/data-set-manager
+$ git clone https://github.com/mugishasam123/Microsoft-clone
 .git
-$ cd data-set-manager
+$ cd Microsoft-clone
 
 ```
 #### Run project
