@@ -11,27 +11,28 @@
 
 <body>
     <header>
-        <nav class="flex justify-between  lg:px-24  px-4 py-6 items-center">
+        <nav class="flex justify-between  lg:px-24 md:px-2 lg:px-4 py-6 items-center">
+            <div class="md:hidden flex space-x-3">
+                <svg class=" w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+
+                <a href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg></a>
+
+            </div>
             <div class="flex  items-center">
-                <div class="md:hidden flex space-x-3">
-                    <svg class=" w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-
-                    <a href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                        </svg></a>
-
-                </div>
-                <a class="ml-20 md:ml-0">
+               
+                <a class="">
                     <img class="w-50 h-5" src="/images/logo.png" alt="microsoft-image">
                 </a>
 
-                <ul class=" space-x-5 hidden  md:flex  ml-6">
+                <ul class="text-sm space-x-3 lg:space-x-5 hidden  md:flex  ml-4 lg:ml-6">
                     <li>
                         <a class="hover:underline" href="#">Microsoft 365</a>
                     </li>
@@ -68,7 +69,7 @@
             </div>
             <ul class="flex space-x-5">
                 <li class="flex space-x-1 items-center hidden md:flex">
-                    <a class="hover:underline" href="#">All Microsoft </a>
+                    <a class="text-sm hover:underline" href="#">All Microsoft </a>
                     <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -154,7 +155,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
             </svg>
         </div>
-        <div class="flex justify-center space-x-6 flex-wrap mt-16">
+        <div class="flex justify-center space-x-6 flex-wrap mt-16 px-6 xl:px-0">
             <div class="flex mb-6 flex-col items-center space-y-3">
                 <img src="/images/icon1.jpeg" alt="icon1">
                 <a class="text-blue-700 font-semibold underline" href="#">Choose your Microsoft 365</a>
@@ -393,9 +394,9 @@
 
         </div>
 
-        <div class="mt-12">
-            <div
-                class="flex  sm:mr-6 float-right space-x-2 bg-gray-100 p-2 w-full sm:w-44 hover:bg-white hover:shadow-xl cursor-pointer">
+        <div class="mt-12 flex justify-end  ">
+            <button
+                class="flex  bg-gray-100 px-6 py-2  hover:bg-white hover:shadow-xl cursor-pointer w-full mx-6 sm:w-auto">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
                         d="M5.293 7.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L6.707 7.707a1 1 0 01-1.414 0z"
@@ -404,14 +405,14 @@
                 <span>
                     Back to top
                 </span>
-            </div>
+            </button>
 
 
         </div>
 
     </section>
 
-    <section class="bg-gray-100 mt-40 space-y-5 py-6 px-12">
+    <section class="bg-gray-100 mt-24 space-y-5 py-6 px-12">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 ">
             <div class="space-y-3">
                 <h4 class="font-semibold text-gray-600">what's new</h4>
