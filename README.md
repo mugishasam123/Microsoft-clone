@@ -5,7 +5,7 @@
 
 > Microsoft clone  is a clone of Microsoft homepage . It is built using html and tailwindcss
  
-![screenshot](https://user-images.githubusercontent.com/90524466/166163957-fc383a6f-b452-46cd-ae1d-2b9e9de294fb.png)
+![image](https://user-images.githubusercontent.com/90524466/189884576-87b7ca7c-b969-4f89-823a-b19e4609c4d5.png)
 
 
 Additional description about the project and its features.
